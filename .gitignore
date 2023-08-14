@@ -1,0 +1,6 @@
+packadge.json
+*.token
+*.log
+old.*
+test.*
+test*
