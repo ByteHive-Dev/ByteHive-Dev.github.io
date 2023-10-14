@@ -13,7 +13,7 @@ body {
     height: 100vh;
     overflow: hidden;
     position: relative;
-    background: linear-gradient(45deg, #45601c, #527413, #2c2f25, #2c5137, #333333, #1a1c32);
+    background: linear-gradient(65deg, #45601c, #527413, #2c2f25, #2c5137, #333333, #1a1c32);
     background-size: 400% 400%;
     animation: gradientAnimation 15s ease infinite;
 }
@@ -79,6 +79,41 @@ section {
     cursor: pointer;
     text-decoration: none;
 }
+
+.social-buttons {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .social-buttons a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .telegram-button {
+    background-color: #0088cc;
+  }
+  
+  .discord-button {
+    background-color: #7289da;
+  }
+  
+  .github-button {
+    background-color: #333;
+  }
+  
+  /* Добавь стили для других кнопок здесь */
+  
+  .social-buttons a:hover {
+    background-color: #444; /* Цвет при наведении */
+  }
+  
 
 footer {
     text-align: center;
